@@ -10,10 +10,10 @@ export default function Home() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Page1">Page1</Link>
+          <Link to="/page1">Page1</Link>
         </li>
         <li>
-          <Link to="/Page2">Page2</Link>
+          <Link to="/page2">Page2</Link>
         </li>
       </ul>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Page1() {
+const Page1 = () => {
   return (
     <div className="App">
       <h1>Hello CodeSandbox Page 1</h1>
@@ -12,4 +12,6 @@ export default function Page1() {
       </ul>
     </div>
   );
-}
+};
+
+export default Page1;
