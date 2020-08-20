@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FormPage1 from "../Components/FormPage1";
 
 const Page1 = () => {
   return (
@@ -10,6 +11,7 @@ const Page1 = () => {
           <Link to="/">Home</Link>
         </li>
       </ul>
+      <FormPage1 />
     </div>
   );
 };
